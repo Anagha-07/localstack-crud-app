@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  localstack:
+    image: localstack/localstack
+    environment:
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    ports:
+      - "4566:4566"  # LocalStack edge port
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
