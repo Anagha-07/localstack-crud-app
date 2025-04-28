@@ -1,4 +1,4 @@
-# LocalStack CRUD Application
+# LocalStack Create Read Update Delete [CRUD] Application
 
 This project demonstrates a **CRUD application** using **LocalStack** to simulate AWS services locally. It uses **Lambda functions** to perform operations on **DynamoDB** and **S3**, allowing you to develop and test serverless applications without needing an actual AWS account.
 
